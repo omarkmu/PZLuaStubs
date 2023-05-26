@@ -3,6 +3,8 @@
 ---@class Reader
 ---@class InputStream
 
+__classmetatables = {}
+
 ---@param value any
 ---@param multiline string?
 ---@param indent string?
