@@ -1,10 +1,8 @@
 ---@meta
 
----@class SandboxVars
----@field [string] any
-SandboxVars = {
+return {
     VERSION = 5,
-    Zombies = 3,
+    Zombies = 4,
     Distribution = 1,
     DayLength = 3,
     StartYear = 1,
@@ -76,8 +74,8 @@ SandboxVars = {
     MaxRainFxIntensity = 1,
     EnableSnowOnGround = true,
     EnableTaintedWaterText = true,
-    MultiHitZombies = false,
-    RearVulnerability = 3,
+    MultiHitZombies = true,
+    RearVulnerability = 1,
     AttackBlockMovements = true,
     AllClothesUnlocked = false,
     CarSpawnRate = 3,
@@ -98,13 +96,13 @@ SandboxVars = {
     EnablePoisoning = 1,
     MaggotSpawn = 1,
     Map = {
-        AllowMiniMap = false,
+        AllowMiniMap = true,
         AllowWorldMap = true,
         MapAllKnown = false,
     },
     ZombieLore = {
         Speed = 2,
-        Strength = 2,
+        Strength = 3,
         Toughness = 2,
         Transmission = 1,
         Mortality = 5,
@@ -118,7 +116,7 @@ SandboxVars = {
         ThumpOnConstruction = true,
         ActiveOnly = 1,
         TriggerHouseAlarm = false,
-        ZombiesDragDown = true,
+        ZombiesDragDown = false,
         ZombiesFenceLunge = true,
         DisableFakeDead = 1,
     },

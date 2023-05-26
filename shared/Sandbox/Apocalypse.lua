@@ -1,10 +1,8 @@
 ---@meta
 
----@class SandboxVars
----@field [string] any
-SandboxVars = {
+return {
     VERSION = 5,
-    Zombies = 3,
+    Zombies = 4,
     Distribution = 1,
     DayLength = 3,
     StartYear = 1,
