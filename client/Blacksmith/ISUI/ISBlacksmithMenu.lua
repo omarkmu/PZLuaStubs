@@ -3,8 +3,8 @@
 ---@class ISBlacksmithMenu
 ISBlacksmithMenu = {}
 ISBlacksmithMenu.canDoSomething = false
-ISBlacksmithMenu.ghs = " <RGB:" .. (getCore():getGoodHighlitedColor():getR() .. ("," .. (getCore():getGoodHighlitedColor():getG() .. ("," .. (getCore():getGoodHighlitedColor():getB() .. "> ")))))
-ISBlacksmithMenu.bhs = " <RGB:" .. (getCore():getBadHighlitedColor():getR() .. ("," .. (getCore():getBadHighlitedColor():getG() .. ("," .. (getCore():getBadHighlitedColor():getB() .. "> ")))))
+ISBlacksmithMenu.ghs = " <RGB:" .. getCore():getGoodHighlitedColor():getR() .. "," .. getCore():getGoodHighlitedColor():getG() .. "," .. getCore():getGoodHighlitedColor():getB() .. "> "
+ISBlacksmithMenu.bhs = " <RGB:" .. getCore():getBadHighlitedColor():getR() .. "," .. getCore():getBadHighlitedColor():getG() .. "," .. getCore():getBadHighlitedColor():getB() .. "> "
 ISBlacksmithMenu.metalForAnvil = 500
 
 ---@return any

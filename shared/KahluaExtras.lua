@@ -1,5 +1,8 @@
 ---@meta _
 
+---@class Reader
+---@class InputStream
+
 ---@param value any
 ---@param multiline string?
 ---@param indent string?

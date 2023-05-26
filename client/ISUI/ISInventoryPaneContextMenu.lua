@@ -4,8 +4,8 @@
 ISInventoryPaneContextMenu = {}
 ISInventoryPaneContextMenu.tooltipPool = {}
 ISInventoryPaneContextMenu.tooltipsUsed = {}
-ISInventoryPaneContextMenu.ghs = " <RGB:" .. (getCore():getGoodHighlitedColor():getR() .. ("," .. (getCore():getGoodHighlitedColor():getG() .. ("," .. (getCore():getGoodHighlitedColor():getB() .. "> ")))))
-ISInventoryPaneContextMenu.bhs = " <RGB:" .. (getCore():getBadHighlitedColor():getR() .. ("," .. (getCore():getBadHighlitedColor():getG() .. ("," .. (getCore():getBadHighlitedColor():getB() .. "> ")))))
+ISInventoryPaneContextMenu.ghs = " <RGB:" .. getCore():getGoodHighlitedColor():getR() .. "," .. getCore():getGoodHighlitedColor():getG() .. "," .. getCore():getGoodHighlitedColor():getB() .. "> "
+ISInventoryPaneContextMenu.bhs = " <RGB:" .. getCore():getBadHighlitedColor():getR() .. "," .. getCore():getBadHighlitedColor():getG() .. "," .. getCore():getBadHighlitedColor():getB() .. "> "
 
 ---@return any
 function ISInventoryPaneContextMenu.createMenu(player, isInPlayerInventory, items, x, y, origin) end

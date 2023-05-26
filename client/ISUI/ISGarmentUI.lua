@@ -34,8 +34,8 @@
 ---@field [any] any
 ISGarmentUI = ISCollapsableWindow:derive("ISGarmentUI")
 ISGarmentUI.windows = {}
-ISGarmentUI.ghs = " <RGB:" .. (getCore():getGoodHighlitedColor():getR() .. ("," .. (getCore():getGoodHighlitedColor():getG() .. ("," .. (getCore():getGoodHighlitedColor():getB() .. "> ")))))
-ISGarmentUI.bhs = " <RGB:" .. (getCore():getBadHighlitedColor():getR() .. ("," .. (getCore():getBadHighlitedColor():getG() .. ("," .. (getCore():getBadHighlitedColor():getB() .. "> ")))))
+ISGarmentUI.ghs = " <RGB:" .. getCore():getGoodHighlitedColor():getR() .. "," .. getCore():getGoodHighlitedColor():getG() .. "," .. getCore():getGoodHighlitedColor():getB() .. "> "
+ISGarmentUI.bhs = " <RGB:" .. getCore():getBadHighlitedColor():getR() .. "," .. getCore():getBadHighlitedColor():getG() .. "," .. getCore():getBadHighlitedColor():getB() .. "> "
 
 ---@return any
 function ISGarmentUI:update() end

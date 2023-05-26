@@ -36,8 +36,8 @@ ISVehicleMechanics.alphaOverlay = 1
 ISVehicleMechanics.alphaOverlayInc = true
 ISVehicleMechanics.tooltip = nil
 ISVehicleMechanics.cheat = false
-ISVehicleMechanics.ghs = "<RGB:" .. (getCore():getGoodHighlitedColor():getR() .. ("," .. (getCore():getGoodHighlitedColor():getG() .. ("," .. (getCore():getGoodHighlitedColor():getB() .. ">")))))
-ISVehicleMechanics.bhs = "<RGB:" .. (getCore():getBadHighlitedColor():getR() .. ("," .. (getCore():getBadHighlitedColor():getG() .. ("," .. (getCore():getBadHighlitedColor():getB() .. ">")))))
+ISVehicleMechanics.ghs = "<RGB:" .. getCore():getGoodHighlitedColor():getR() .. "," .. getCore():getGoodHighlitedColor():getG() .. "," .. getCore():getGoodHighlitedColor():getB() .. ">"
+ISVehicleMechanics.bhs = "<RGB:" .. getCore():getBadHighlitedColor():getR() .. "," .. getCore():getBadHighlitedColor():getG() .. "," .. getCore():getBadHighlitedColor():getB() .. ">"
 
 ---@return any
 function ISVehicleMechanics.onRepairEngine(playerObj, part) end

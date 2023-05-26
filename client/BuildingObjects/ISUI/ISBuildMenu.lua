@@ -9,8 +9,8 @@ ISBuildMenu.hinge = 0
 ISBuildMenu.doorknob = 0
 ISBuildMenu.cheat = false or getDebug()
 ISBuildMenu.woodWorkXp = 0
-ISBuildMenu.ghs = " <RGB:" .. (getCore():getGoodHighlitedColor():getR() .. ("," .. (getCore():getGoodHighlitedColor():getG() .. ("," .. (getCore():getGoodHighlitedColor():getB() .. "> ")))))
-ISBuildMenu.bhs = " <RGB:" .. (getCore():getBadHighlitedColor():getR() .. ("," .. (getCore():getBadHighlitedColor():getG() .. ("," .. (getCore():getBadHighlitedColor():getB() .. "> ")))))
+ISBuildMenu.ghs = " <RGB:" .. getCore():getGoodHighlitedColor():getR() .. "," .. getCore():getGoodHighlitedColor():getG() .. "," .. getCore():getGoodHighlitedColor():getB() .. "> "
+ISBuildMenu.bhs = " <RGB:" .. getCore():getBadHighlitedColor():getR() .. "," .. getCore():getBadHighlitedColor():getG() .. "," .. getCore():getBadHighlitedColor():getB() .. "> "
 
 ---@return any
 function ISBuildMenu.GetItemInstance(type) end
