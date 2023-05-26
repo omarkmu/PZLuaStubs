@@ -1,5 +1,7 @@
 ---@meta
 
+debugScenarios = debugScenarios or {}
+
 ---@class DebugScenarios : ISPanel
 ---@field header any
 ---@field listbox any
