@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class ForecasterDebug : ISPanel
+---@field instance any
 ---@field clim any
 ---@field forecaster any
 ---@field firstForecast any

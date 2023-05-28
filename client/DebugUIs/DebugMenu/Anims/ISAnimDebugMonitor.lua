@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class ISAnimDebugMonitor : ISCollapsableWindow
+---@field instance any
 ---@field cGreen any
 ---@field cRed any
 ---@field buttonToggleMonitor any

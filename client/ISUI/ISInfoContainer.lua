@@ -2,6 +2,7 @@
 
 ---@class ISInfoContainer : ISCollapsableWindow
 ---@field panel any
+---@field instance any
 ---@field [any] any
 ISInfoContainer = ISCollapsableWindow:derive("ISInfoContainer")
 

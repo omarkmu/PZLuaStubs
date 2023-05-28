@@ -1,6 +1,9 @@
 ---@meta
 
 ---@class ISWorldObjectContextMenu
+---@field Test any
+---@field sleepDialog any
+---@field [any] any
 ISWorldObjectContextMenu = {}
 ISWorldObjectContextMenu.fetchSquares = {}
 ISWorldObjectContextMenu.tooltipPool = {}

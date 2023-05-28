@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class IsoRegionLogWindow : ISPanel
+---@field instance any
 ---@field firstTableName any
 ---@field tableNamesList any
 ---@field variableColor any

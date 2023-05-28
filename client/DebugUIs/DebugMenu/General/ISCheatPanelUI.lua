@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class ISCheatPanelUI : ISPanel
+---@field instance any
 ---@field ok any
 ---@field tickBox any
 ---@field setFunction any

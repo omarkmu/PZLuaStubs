@@ -5,6 +5,7 @@
 ---@field threadPanel any
 ---@field backgroundColor any
 ---@field clearStentil any
+---@field instance any
 ---@field [any] any
 LuaDebugger = ISCollapsableWindow:derive("LuaDebugger")
 

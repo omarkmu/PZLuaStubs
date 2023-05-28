@@ -1,6 +1,8 @@
 ---@meta
 
 ---@class StatisticChartUpdatePeriod : StatisticChart
+---@field instance any
+---@field [any] any
 StatisticChartUpdatePeriod = StatisticChart:derive("StatisticChartUpdatePeriod")
 StatisticChartUpdatePeriod.instance = nil
 StatisticChartUpdatePeriod.shiftDown = 0

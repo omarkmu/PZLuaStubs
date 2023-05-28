@@ -1,6 +1,8 @@
 ---@meta
 
 ---@class LastStandData
+---@field chosenChallenge any
+---@field [any] any
 LastStandData = {}
 LastStandData.chosenChallenge = nil
 

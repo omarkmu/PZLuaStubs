@@ -1,6 +1,8 @@
 ---@meta
 
 ---@class ISUIHandler
+---@field allUIVisible any
+---@field [any] any
 ISUIHandler = {}
 ISUIHandler.allUIVisible = true
 ISUIHandler.visibleUI = {}

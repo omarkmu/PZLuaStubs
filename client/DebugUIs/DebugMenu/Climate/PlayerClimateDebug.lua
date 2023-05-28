@@ -1,6 +1,10 @@
 ---@meta
 
 ---@class PlayerClimateDebug : ISCollapsableWindow
+---@field fx any
+---@field cm any
+---@field eventsAdded any
+---@field instance any
 ---@field labels any
 ---@field tempColor any
 ---@field colWhite any

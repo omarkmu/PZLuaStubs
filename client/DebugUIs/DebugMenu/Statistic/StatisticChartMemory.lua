@@ -1,6 +1,8 @@
 ---@meta
 
 ---@class StatisticChartMemory : StatisticChart
+---@field instance any
+---@field [any] any
 StatisticChartMemory = StatisticChart:derive("StatisticChartMemory")
 StatisticChartMemory.instance = nil
 StatisticChartMemory.shiftDown = 0

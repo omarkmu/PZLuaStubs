@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class DeviceInspector : ISCollapsableWindow
+---@field instance any
 ---@field richtext any
 ---@field currentTile any
 ---@field tmpTxt any

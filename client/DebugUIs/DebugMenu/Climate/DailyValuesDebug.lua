@@ -1,6 +1,9 @@
 ---@meta
 
 ---@class DailyValuesDebug : ISCollapsableWindow
+---@field fx any
+---@field cm any
+---@field instance any
 ---@field labels any
 ---@field tempColor any
 ---@field currentTile any

@@ -18,6 +18,7 @@ function BrushToolTilePickerList:onMouseDown(x, y) end
 function BrushToolTilePickerList:new(x, y, w, h, character) end
 
 ---@class BrushToolChooseTileUI : ISCollapsableWindow
+---@field instance any
 ---@field searchEntryBox any
 ---@field imageList any
 ---@field tilesList any

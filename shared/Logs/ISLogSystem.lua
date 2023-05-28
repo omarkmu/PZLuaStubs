@@ -1,6 +1,8 @@
 ---@meta
 
 ---@class ISLogSystem
+---@field steamID any
+---@field [any] any
 ISLogSystem = {}
 
 ---@return any

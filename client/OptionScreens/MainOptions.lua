@@ -26,10 +26,13 @@
 ---@field sprintBtn any
 ---@field gameSounds any
 ---@field modal any
+---@field keys any
+---@field keyBindingLength any
 ---@field cover any
 ---@field monitorSettings any
 ---@field resetLua any
 ---@field restartRequired any
+---@field setKeybindDialog any
 ---@field joypadIndex any
 ---@field joypadIndexY any
 ---@field joypadButtons any

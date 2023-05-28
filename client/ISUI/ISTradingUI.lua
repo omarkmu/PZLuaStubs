@@ -30,6 +30,7 @@
 ---@field pendingRequest any
 ---@field historyMessage any
 ---@field historical any
+---@field tradeQuestionUI any
 ---@field [any] any
 ISTradingUI = ISPanel:derive("ISTradingUI")
 ISTradingUI.messages = {}

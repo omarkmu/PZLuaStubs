@@ -2,6 +2,7 @@
 
 ---@class ISScoreboard : ISPanelJoypad
 ---@field maxNameWid any
+---@field isAdmin any
 ---@field listboxYScroll any
 ---@field itemheight any
 ---@field listbox any

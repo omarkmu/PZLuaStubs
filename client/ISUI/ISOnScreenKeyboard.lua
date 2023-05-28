@@ -159,6 +159,8 @@ function OnScreenKeyboardPanel:onJoypadDown(button, joypadData) end
 function OnScreenKeyboardPanel:new(x, y, parent) end
 
 ---@class OnScreenKeyboard
+---@field instance any
+---@field [any] any
 OnScreenKeyboard = {}
 
 ---@return any

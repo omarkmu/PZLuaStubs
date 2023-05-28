@@ -1,6 +1,11 @@
 ---@meta
 
 ---@class ISFarmingMenu
+---@field GardeningSprayMilk any
+---@field GardeningSprayCigarettes any
+---@field cursor any
+---@field TEMP_PLANT any
+---@field [any] any
 ISFarmingMenu = {}
 ISFarmingMenu.info = {}
 ISFarmingMenu.GardeningSprayMilk = nil

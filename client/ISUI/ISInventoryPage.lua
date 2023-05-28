@@ -40,6 +40,7 @@
 ---@field moving any
 ---@field downX any
 ---@field downY any
+---@field floorContainer any
 ---@field buttonPool any
 ---@field selectedButton any
 ---@field lookDir any
@@ -71,6 +72,7 @@
 ---@field titleFontHgt any
 ---@field buttonSize any
 ---@field mouseOverButton any
+---@field renderDirty any
 ---@field render3DItemXOffset any
 ---@field render3DItemYOffset any
 ---@field render3DItemZOffset any

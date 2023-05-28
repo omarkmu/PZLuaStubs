@@ -2,6 +2,7 @@
 
 ---@class ISDemoPopup : ISPanel
 ---@field richtext any
+---@field instance any
 ---@field x any
 ---@field y any
 ---@field borderColor any

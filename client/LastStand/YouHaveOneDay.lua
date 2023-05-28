@@ -1,6 +1,8 @@
 ---@meta
 
 ---@class YouHaveOneDay
+---@field hordeSpawned any
+---@field [any] any
 YouHaveOneDay = {}
 YouHaveOneDay.id = "YouHaveOneDay"
 YouHaveOneDay.image = "media/lua/client/LastStand/YouHaveOneDay.png"

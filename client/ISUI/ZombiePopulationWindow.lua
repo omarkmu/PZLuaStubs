@@ -12,6 +12,7 @@
 ---@field xpos any
 ---@field ypos any
 ---@field zoom any
+---@field instance any
 ---@field [any] any
 ZombiePopulationWindow = ISCollapsableWindow:derive("ZombiePopulationWindow")
 

@@ -1,6 +1,17 @@
 ---@meta
 
 ---@class Challenge2
+---@field wave any
+---@field timeNeededTick any
+---@field timeNeededAlpha any
+---@field timeNeeded any
+---@field moneyGained any
+---@field xpGained any
+---@field startedWaveCalendar any
+---@field deadZombie any
+---@field prepareTimeCalendar any
+---@field zombiesSpawned any
+---@field [any] any
 Challenge2 = {}
 Challenge2.zombiesSpawned = 0
 Challenge2.startedWaveCalendar = nil

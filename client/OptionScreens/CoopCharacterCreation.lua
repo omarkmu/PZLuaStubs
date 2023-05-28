@@ -9,6 +9,7 @@
 ---@field joypadIndex any
 ---@field joypadData any
 ---@field playerIndex any
+---@field visibleUI any
 ---@field [any] any
 CoopCharacterCreation = ISPanelJoypad:derive("CoopCharacterCreation")
 CoopCharacterCreation.visibleUI = {}

@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class ISMediaInfo : ISCollapsableWindowJoypad
+---@field instance any
 ---@field buttonOK any
 ---@field richText any
 ---@field name any

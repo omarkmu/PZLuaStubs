@@ -1,6 +1,9 @@
 ---@meta
 
 ---@class EightMonthsLater
+---@field wave any
+---@field waveTime any
+---@field [any] any
 EightMonthsLater = {}
 EightMonthsLater.name = "One Year Later"
 EightMonthsLater.description = "Nature has begun to reclaim the Earth. Can you survive in this dead world?"

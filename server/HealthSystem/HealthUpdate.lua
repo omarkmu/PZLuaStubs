@@ -1,6 +1,8 @@
 ---@meta
 
 ---@class healthUpdate
+---@field bodyDmg any
+---@field [any] any
 healthUpdate = {}
 healthUpdate.lastGrid = nil
 healthUpdate.bodyDmg = nil

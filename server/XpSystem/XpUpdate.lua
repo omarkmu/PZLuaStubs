@@ -1,6 +1,10 @@
 ---@meta
 
 ---@class xpUpdate
+---@field lastX any
+---@field lastY any
+---@field characterInfo any
+---@field [any] any
 xpUpdate = {}
 xpUpdate.characterInfo = nil
 xpUpdate.lastX = 0

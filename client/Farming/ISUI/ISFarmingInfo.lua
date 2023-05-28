@@ -110,6 +110,9 @@ disease_rgb = {
     ["0b"] = 255.0,
 }
 
+---@class disease
+---@field text any
+---@field [any] any
 disease = {}
 
 title_rgb = {

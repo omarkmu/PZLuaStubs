@@ -1,6 +1,9 @@
 ---@meta
 
 ---@class OpeningHours
+---@field openTime any
+---@field dayCount any
+---@field [any] any
 OpeningHours = {}
 OpeningHours.id = "OpeningHours"
 OpeningHours.image = "media/lua/client/LastStand/OpeningHours.png"

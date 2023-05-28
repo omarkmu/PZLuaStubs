@@ -3,6 +3,7 @@
 ---@class TutorialMessage : ISPanelJoypad
 ---@field richtext any
 ---@field test any
+---@field instance any
 ---@field x any
 ---@field message any
 ---@field clickToSkip any

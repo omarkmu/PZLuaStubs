@@ -1,6 +1,9 @@
 ---@meta
 
 ---@class ISInventoryPaneContextMenu
+---@field toolRender any
+---@field placeItemCursor any
+---@field [any] any
 ISInventoryPaneContextMenu = {}
 ISInventoryPaneContextMenu.tooltipPool = {}
 ISInventoryPaneContextMenu.tooltipsUsed = {}

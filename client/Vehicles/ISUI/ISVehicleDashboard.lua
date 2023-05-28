@@ -43,6 +43,8 @@
 ---@field gaugeEmpty any
 ---@field engineGaugeTex any
 ---@field speedGaugeTex any
+---@field lastVehicleDamageTimer any
+---@field lastVehicleDamage any
 ---@field [any] any
 ISVehicleDashboard = ISPanel:derive("ISVehicleDashboard")
 ISVehicleDashboard.lastVehicleDamage = nil

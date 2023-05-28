@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class ThermoDebug : ISCollapsableWindow
+---@field instance any
 ---@field setY any
 ---@field richtext any
 ---@field tmpTxt any

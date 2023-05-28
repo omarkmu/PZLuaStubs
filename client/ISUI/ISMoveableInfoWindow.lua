@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class ISMoveableInfoWindow : ISPanel
+---@field displayPosition any
 ---@field mouseOverUI any
 ---@field bodyText any
 ---@field customBodyAlign any

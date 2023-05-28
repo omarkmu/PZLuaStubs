@@ -9,6 +9,7 @@ debugScenarios = debugScenarios or {}
 ---@field y any
 ---@field backgroundColor any
 ---@field borderColor any
+---@field instance any
 ---@field [any] any
 DebugScenarios = ISPanel:derive("DebugScenarios")
 

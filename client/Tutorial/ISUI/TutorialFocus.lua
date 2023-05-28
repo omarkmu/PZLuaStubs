@@ -18,6 +18,7 @@
 ---@field anchorRight any
 ---@field anchorTop any
 ---@field anchorBottom any
+---@field instance any
 ---@field [any] any
 TutorialFocus = ISPanel:derive("TutorialFocus")
 

@@ -1,6 +1,11 @@
 ---@meta
 
 ---@class ISBlacksmithMenu
+---@field groundItems any
+---@field groundItemCounts any
+---@field groundItemUses any
+---@field canDoSomething any
+---@field [any] any
 ISBlacksmithMenu = {}
 ISBlacksmithMenu.canDoSomething = false
 ISBlacksmithMenu.ghs = " <RGB:" .. getCore():getGoodHighlitedColor():getR() .. "," .. getCore():getGoodHighlitedColor():getG() .. "," .. getCore():getGoodHighlitedColor():getB() .. "> "

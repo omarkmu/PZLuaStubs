@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class ZomboidRadioDebug : ISPanel
+---@field instance any
 ---@field radio any
 ---@field scriptManager any
 ---@field channelsList any

@@ -1,6 +1,11 @@
 ---@meta
 
 ---@class ISObjectClickHandler
+---@field downObject any
+---@field rdownObject any
+---@field rclickTime any
+---@field clickTime any
+---@field [any] any
 ISObjectClickHandler = {}
 
 ---@return any

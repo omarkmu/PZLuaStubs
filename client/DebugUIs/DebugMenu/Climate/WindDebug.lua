@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class WindDebug : ISCollapsableWindow
+---@field instance any
 ---@field buttonM1 any
 ---@field historyM1 any
 ---@field charts any

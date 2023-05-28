@@ -1,6 +1,8 @@
 ---@meta
 
 ---@class DynamicRadio
+---@field valid any
+---@field [any] any
 DynamicRadio = {}
 DynamicRadio.valid = true
 DynamicRadio.scripts = {}

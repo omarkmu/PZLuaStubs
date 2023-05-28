@@ -4,6 +4,7 @@
 ---@field current any
 ---@field character any
 ---@field queue any
+---@field shouldResetGameSpeed any
 ---@field [any] any
 ISTimedActionQueue = ISBaseObject:derive("ISTimedActionQueue")
 ISTimedActionQueue.IDMax = 1

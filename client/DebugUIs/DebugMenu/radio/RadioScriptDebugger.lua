@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class RadioScriptDebugger : ISPanel
+---@field instance any
 ---@field radio any
 ---@field scriptManager any
 ---@field infoList any

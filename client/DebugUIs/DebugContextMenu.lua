@@ -1,6 +1,11 @@
 ---@meta
 
 ---@class DebugContextMenu
+---@field staggerBacking any
+---@field ticked any
+---@field selectedZombie any
+---@field stagTime any
+---@field [any] any
 DebugContextMenu = {}
 DebugContextMenu.staggerBacking = false
 DebugContextMenu.stagTime = 0

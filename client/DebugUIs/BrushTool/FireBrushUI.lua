@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class FireBrushUI : ISPanelJoypad
+---@field instance any
 ---@field brushType any
 ---@field addByClick any
 ---@field removeByClick any

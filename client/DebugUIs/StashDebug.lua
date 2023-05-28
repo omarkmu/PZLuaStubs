@@ -5,6 +5,7 @@
 ---@field datas any
 ---@field viewBtn any
 ---@field reinitBtn any
+---@field instance any
 ---@field borderColor any
 ---@field backgroundColor any
 ---@field width any

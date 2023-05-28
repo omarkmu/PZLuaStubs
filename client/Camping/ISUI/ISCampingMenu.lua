@@ -1,6 +1,10 @@
 ---@meta
 
 ---@class ISCampingMenu
+---@field campfire any
+---@field tent any
+---@field currentSquare any
+---@field [any] any
 ISCampingMenu = {}
 ISCampingMenu.currentSquare = nil
 ISCampingMenu.campfire = nil

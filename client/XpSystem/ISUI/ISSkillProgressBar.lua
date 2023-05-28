@@ -6,6 +6,8 @@
 ---@field xpForLvl any
 ---@field message any
 ---@field xp any
+---@field alpha any
+---@field upAlpha any
 ---@field playerNum any
 ---@field char any
 ---@field perk any

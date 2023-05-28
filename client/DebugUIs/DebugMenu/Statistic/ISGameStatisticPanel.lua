@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class ISGameStatisticPanel : ISPanel
+---@field instance any
 ---@field flareCount any
 ---@field colExt any
 ---@field colInt any

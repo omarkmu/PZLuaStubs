@@ -1,6 +1,8 @@
 ---@meta
 
 ---@class TestMarkers
+---@field index any
+---@field [any] any
 TestMarkers = {}
 TestMarkers.loc = {}
 TestMarkers.index = 1

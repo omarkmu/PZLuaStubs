@@ -1,6 +1,9 @@
 ---@meta
 
 ---@class ISVehicleMenu
+---@field acui any
+---@field seatUI any
+---@field [any] any
 ISVehicleMenu = {}
 
 ---@return any

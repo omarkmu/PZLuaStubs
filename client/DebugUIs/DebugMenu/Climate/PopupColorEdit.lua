@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class PopupColorEdit : ISPanel
+---@field instance any
 ---@field floats any
 ---@field optionControls any
 ---@field firstRun any

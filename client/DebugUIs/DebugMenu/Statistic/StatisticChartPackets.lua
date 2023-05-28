@@ -1,6 +1,8 @@
 ---@meta
 
 ---@class StatisticChartPackets : StatisticChart
+---@field instance any
+---@field [any] any
 StatisticChartPackets = StatisticChart:derive("StatisticChartPackets")
 StatisticChartPackets.instance = nil
 StatisticChartPackets.shiftDown = 0

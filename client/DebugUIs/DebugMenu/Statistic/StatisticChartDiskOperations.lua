@@ -1,6 +1,8 @@
 ---@meta
 
 ---@class StatisticChartDiskOperations : StatisticChart
+---@field instance any
+---@field [any] any
 StatisticChartDiskOperations = StatisticChart:derive("StatisticChartDiskOperations")
 StatisticChartDiskOperations.instance = nil
 StatisticChartDiskOperations.shiftDown = 0

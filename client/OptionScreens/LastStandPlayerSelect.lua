@@ -7,6 +7,7 @@
 ---@field playButton any
 ---@field newButton any
 ---@field deleteButton any
+---@field playerSelected any
 ---@field joyfocus any
 ---@field x any
 ---@field y any

@@ -1,6 +1,17 @@
 ---@meta
 
 ---@class ISBuildMenu
+---@field ItemInstances any
+---@field woodWorkXp any
+---@field materialOnGround any
+---@field planks any
+---@field nails any
+---@field nailsBox any
+---@field hinge any
+---@field doorknob any
+---@field hasHammer any
+---@field cursor any
+---@field [any] any
 ISBuildMenu = {}
 ISBuildMenu.planks = 0
 ISBuildMenu.nails = 0

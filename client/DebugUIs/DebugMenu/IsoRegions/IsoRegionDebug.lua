@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class IsoRegionDebug : ISCollapsableWindow
+---@field instance any
 ---@field canvasY any
 ---@field cam any
 ---@field palpha any

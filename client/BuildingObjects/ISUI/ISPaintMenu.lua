@@ -1,6 +1,8 @@
 ---@meta
 
 ---@class ISPaintMenu
+---@field player any
+---@field [any] any
 ISPaintMenu = {}
 
 ---@return any

@@ -1,6 +1,8 @@
 ---@meta
 
 ---@class WeatherPeriodDebug : ISCollapsableWindow
+---@field eventsAdded any
+---@field instance any
 ---@field buttonM1 any
 ---@field buttonH1 any
 ---@field buttonD1 any

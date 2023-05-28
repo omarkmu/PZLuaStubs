@@ -1,6 +1,12 @@
 ---@meta
 
 ---@class Challenge1
+---@field wave any
+---@field waveTime any
+---@field alphaTxt any
+---@field lastWaveTime any
+---@field zombiesSpawned any
+---@field [any] any
 Challenge1 = {}
 Challenge1.zombiesSpawned = 0
 Challenge1.deadZombie = 0

@@ -12,6 +12,9 @@
 ---@field draggingTab any
 ---@field viewList any
 ---@field activeView any
+---@field xMouse any
+---@field yMouse any
+---@field viewDragging any
 ---@field maxLength any
 ---@field equalTabWidth any
 ---@field centerTabs any

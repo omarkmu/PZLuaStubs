@@ -8,6 +8,7 @@
 ---@field data any
 ---@field currentStage any
 ---@field clearOnNextRun any
+---@field instance any
 ---@field currentTile any
 ---@field x any
 ---@field y any

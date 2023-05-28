@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class IsoRegionDetails : ISCollapsableWindow
+---@field instance any
 ---@field canvasY any
 ---@field richtext any
 ---@field tmpTxt any

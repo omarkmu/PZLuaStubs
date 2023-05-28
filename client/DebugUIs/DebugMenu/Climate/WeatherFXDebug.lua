@@ -1,6 +1,9 @@
 ---@meta
 
 ---@class WeatherFXDebug : ISCollapsableWindow
+---@field fx any
+---@field eventAdded any
+---@field instance any
 ---@field labelWindIntensity any
 ---@field labelWindIntensityValue any
 ---@field windIntensitySlider any

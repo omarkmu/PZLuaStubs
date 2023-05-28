@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class IsoRegionsWindow : ISCollapsableWindow
+---@field instance any
 ---@field title any
 ---@field renderPanel any
 ---@field settingPath any

@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class WorldFlaresDebug : ISPanel
+---@field instance any
 ---@field flareCount any
 ---@field colExt any
 ---@field colInt any

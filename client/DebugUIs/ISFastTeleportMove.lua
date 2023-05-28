@@ -1,6 +1,9 @@
 ---@meta
 
 ---@class ISFastTeleportMove
+---@field currentZ any
+---@field isAdded any
+---@field [any] any
 ISFastTeleportMove = {}
 ISFastTeleportMove.cheat = false
 ISFastTeleportMove.currentZ = 0

@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class InterpolationPlayerPeriodDebug : ISCollapsableWindow
+---@field instance any
 ---@field labels any
 ---@field historyM1 any
 ---@field varInfo any

@@ -49,6 +49,7 @@
 ---@field chatUnLockedButtonTexture any
 ---@field timerTextEntry any
 ---@field fade any
+---@field chat any
 ---@field [any] any
 ISChat = ISCollapsableWindow:derive("ISChat")
 ISChat.maxLine = 50

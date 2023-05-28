@@ -1,6 +1,12 @@
 ---@meta
 
 ---@class CDDA
+---@field xcell any
+---@field ycell any
+---@field x any
+---@field y any
+---@field z any
+---@field [any] any
 CDDA = {}
 CDDA.id = "AReallyCDDAy"
 CDDA.completionText = "Survive a night to unlock next challenge."

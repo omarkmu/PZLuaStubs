@@ -21,6 +21,7 @@
 ---@field ok any
 ---@field destroyOnClick any
 ---@field texture any
+---@field instance any
 ---@field [any] any
 ISTermsOfServiceUI = ISPanelJoypad:derive("ISTermsOfServiceUI")
 

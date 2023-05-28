@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class GlobalModDataDebug : ISPanel
+---@field instance any
 ---@field firstTableName any
 ---@field tableNamesList any
 ---@field infoList any

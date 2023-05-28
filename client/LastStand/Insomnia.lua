@@ -1,6 +1,9 @@
 ---@meta
 
 ---@class InsomniaChallenge
+---@field wave any
+---@field waveTime any
+---@field [any] any
 InsomniaChallenge = {}
 InsomniaChallenge.zombiesSpawned = 0
 InsomniaChallenge.deadZombie = 0

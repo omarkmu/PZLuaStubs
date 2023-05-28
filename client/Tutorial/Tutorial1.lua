@@ -1,6 +1,13 @@
 ---@meta
 
 ---@class Tutorial1
+---@field steps any
+---@field moveKeys any
+---@field marker any
+---@field joypad any
+---@field DeadMouseContainer any
+---@field DeadMouse any
+---@field [any] any
 Tutorial1 = {}
 Tutorial1.cratePositions = {
     {

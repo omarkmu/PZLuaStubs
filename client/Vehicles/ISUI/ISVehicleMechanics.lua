@@ -13,6 +13,7 @@
 ---@field bodyworklist any
 ---@field selected any
 ---@field context any
+---@field cheat any
 ---@field hidetooltip any
 ---@field tooltip any
 ---@field flashFailure any

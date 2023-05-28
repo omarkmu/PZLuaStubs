@@ -1,6 +1,11 @@
 ---@meta
 
 ---@class TutorialTests
+---@field homing2 any
+---@field homing1 any
+---@field marker1 any
+---@field currentZoom any
+---@field [any] any
 TutorialTests = {}
 TutorialTests.klight_x = 160
 TutorialTests.klight_y = 156
@@ -182,6 +187,8 @@ function FightStep:finish() end
 function FightStep:new() end
 
 ---@class SneakStep : TutorialStep
+---@field shotgun any
+---@field [any] any
 SneakStep = TutorialStep:derive("SneakStep")
 SneakStep.zombieDadSpawnX = 166
 SneakStep.zombieDadSpawnY = 147
@@ -224,6 +231,21 @@ function SneakStep:finish() end
 function SneakStep:new() end
 
 ---@class BandageStep : TutorialStep
+---@field fences any
+---@field vaultedWrong any
+---@field vaulted any
+---@field runned any
+---@field extTimer any
+---@field vaultedWindow any
+---@field vaultedWrongZoom any
+---@field brother1 any
+---@field brother2 any
+---@field sqDoor any
+---@field sqWindow any
+---@field blink any
+---@field containers any
+---@field spawnedItems any
+---@field [any] any
 BandageStep = TutorialStep:derive("BandageStep")
 BandageStep.brotherX = 182
 BandageStep.brotherY = 147
@@ -258,6 +280,15 @@ function BandageStep:finish() end
 function BandageStep:new() end
 
 ---@class ShotgunStep : TutorialStep
+---@field soundDone any
+---@field timeOfDeath any
+---@field vaulted any
+---@field hassprintedTimer any
+---@field sneaked any
+---@field brotherWakeupTimer any
+---@field squares any
+---@field soundTimer any
+---@field [any] any
 ShotgunStep = TutorialStep:derive("ShotgunStep")
 ShotgunStep.tickBeforeHordeSpawn = 0
 ShotgunStep.hassprintedTimer = 0

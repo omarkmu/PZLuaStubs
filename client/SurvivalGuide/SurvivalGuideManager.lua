@@ -2,6 +2,7 @@
 
 ---@class SurvivalGuideManager : ISBaseObject
 ---@field panel any
+---@field instance any
 ---@field [any] any
 SurvivalGuideManager = ISBaseObject:derive("SurvivalGuideManager")
 

@@ -1,6 +1,7 @@
 ---@meta
 
 ---@class BrushToolManager : ISCollapsableWindow
+---@field instance any
 ---@field chooseTile any
 ---@field controlFire any
 ---@field help any

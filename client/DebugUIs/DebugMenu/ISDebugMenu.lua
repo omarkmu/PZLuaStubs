@@ -2,6 +2,7 @@
 
 ---@class ISDebugMenu : ISPanel
 ---@field buttons any
+---@field instance any
 ---@field mainButton any
 ---@field devButton any
 ---@field mainTab any

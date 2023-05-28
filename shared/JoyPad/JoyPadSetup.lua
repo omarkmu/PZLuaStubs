@@ -1,6 +1,9 @@
 ---@meta
 
 ---@class JoypadState
+---@field saveFocus any
+---@field debugUI any
+---@field [any] any
 JoypadState = {}
 JoypadState.controllers = {}
 JoypadState.players = {}

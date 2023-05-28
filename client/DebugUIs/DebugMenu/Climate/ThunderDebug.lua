@@ -1,6 +1,8 @@
 ---@meta
 
 ---@class ThunderDebug : ISCollapsableWindow
+---@field eventsAdded any
+---@field instance any
 ---@field labels any
 ---@field thunderStorm any
 ---@field currentTile any

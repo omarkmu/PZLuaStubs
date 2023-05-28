@@ -1,6 +1,8 @@
 ---@meta
 
 ---@class ISLayoutManager
+---@field layouts any
+---@field [any] any
 ISLayoutManager = {}
 ISLayoutManager.windows = {}
 ISLayoutManager.enableLog = false

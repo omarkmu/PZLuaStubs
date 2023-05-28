@@ -22,6 +22,7 @@
 ---@field anchorRight any
 ---@field anchorTop any
 ---@field anchorBottom any
+---@field instance any
 ---@field [any] any
 LoginScreen = ISPanel:derive("LoginScreen")
 
